@@ -8,6 +8,7 @@ final GoRouter appRouter = GoRouter(
 
     GoRoute(
       path: '/',
+      name: HomeScreen.name,
       builder: (BuildContext context, GoRouterState state) {
         return const HomeScreen();
       }
@@ -15,6 +16,7 @@ final GoRouter appRouter = GoRouter(
 
     GoRoute(
       path: '/buttons',
+      name: ButtonsScreen.name,
       builder: (BuildContext context, GoRouterState state) {
         return const ButtonsScreen();
       }
@@ -22,6 +24,7 @@ final GoRouter appRouter = GoRouter(
 
     GoRoute(
       path: '/cards',
+      name: CardsScreen.name,
       builder: (BuildContext context, GoRouterState state) {
         return const CardsScreen();
       }
