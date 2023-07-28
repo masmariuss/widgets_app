@@ -9,7 +9,7 @@ class MenuItem {
   const MenuItem({
     required this.title, 
     required this.subTitle, 
-    required this.link, 
+    required this.link,
     required this.icon});
 }
 
@@ -17,17 +17,31 @@ class MenuItem {
 const appMenuItems = <MenuItem>[
 
   MenuItem(
-    title: 'botones', 
+    title: 'Botones', 
     subTitle: 'Varios botones en Flutter', 
     link: '/buttons', 
     icon: Icons.smart_button_outlined
   ),
 
   MenuItem(
-    title: 'tarjetas', 
+    title: 'Tarjetas', 
     subTitle: 'Varios botones en Flutter', 
     link: '/cards', 
     icon: Icons.credit_card
+  ),
+
+  MenuItem(
+    title: 'Progress Indicators', 
+    subTitle: 'Generales y controlados', 
+    link: '/progress', 
+    icon: Icons.refresh_rounded
+  ),
+
+  MenuItem(
+    title: 'Snackbars & Dialogues', 
+    subTitle: 'Indicadores en pantalla', 
+    link: '/snackbars', 
+    icon: Icons.info_outline
   ),
 
 ];
